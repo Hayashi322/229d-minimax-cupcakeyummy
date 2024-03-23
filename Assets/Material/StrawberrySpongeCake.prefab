@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: 6452435492148602896}
   - component: {fileID: 9110589275953634522}
   - component: {fileID: -5453824931479567221}
-  - component: {fileID: 6752554653455260027}
   - component: {fileID: 1044454488387803315}
+  - component: {fileID: -905645249489316098}
   m_Layer: 0
   m_Name: StrawberrySpongeCake
-  m_TagString: Untagged
+  m_TagString: item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,19 +99,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateSpeed: 1
---- !u!114 &6752554653455260027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7309250785854668047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc2c6cdd09a5dd0499528a8b2451311b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CupcakeFX: {fileID: 0}
 --- !u!136 &1044454488387803315
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -135,3 +122,16 @@ CapsuleCollider:
   m_Height: 0.35
   m_Direction: 1
   m_Center: {x: 0, y: 0.12578808, z: -0.000000007450581}
+--- !u!114 &-905645249489316098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309250785854668047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2c6cdd09a5dd0499528a8b2451311b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CupcakeFX: {fileID: 0}
