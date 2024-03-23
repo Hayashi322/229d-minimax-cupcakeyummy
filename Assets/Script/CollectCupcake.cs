@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CollectCupcake : MonoBehaviour
@@ -8,7 +9,12 @@ public class CollectCupcake : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        CupcakeFX.Play();
+        if (CupcakeFX != null)
+        {
+            CupcakeFX.Play();
+
+        }
+        
         this.gameObject.SetActive(false);
     }
 }
