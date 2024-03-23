@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5294415848763781382}
   - component: {fileID: 1892921703454510591}
   - component: {fileID: 8167340975456641065}
-  - component: {fileID: 5706179917574753168}
+  - component: {fileID: 9088096116212518095}
   - component: {fileID: -1321723608003014381}
   m_Layer: 0
   m_Name: Log3_summer
@@ -108,7 +108,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2657476039208060934, guid: 3365a3387d5028e4398a6ef0c4549302, type: 3}
---- !u!114 &5706179917574753168
+--- !u!114 &9088096116212518095
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,10 +117,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 178407092529051939}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4aff859e51c0db4448c2ee672a73bbfb, type: 3}
+  m_Script: {fileID: 11500000, guid: 0bfa6fc0e763b4742876977cf61f49c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thePlayer: {fileID: 0}
 --- !u!65 &-1321723608003014381
 BoxCollider:
   m_ObjectHideFlags: 0

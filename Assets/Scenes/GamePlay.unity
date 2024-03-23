@@ -3427,6 +3427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 511357935709623811, guid: 47c2da54de5477e429bc651d44a626d2, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 888165675229301945, guid: 47c2da54de5477e429bc651d44a626d2, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.3068051
@@ -42113,8 +42117,8 @@ GameObject:
   - component: {fileID: 1392804522}
   - component: {fileID: 1392804521}
   - component: {fileID: 1392804520}
-  - component: {fileID: 1392804519}
   - component: {fileID: 1392804524}
+  - component: {fileID: 1392804525}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -42122,20 +42126,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1392804519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392804518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22db4f46677208b46bc4402252824cd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MoveSpeed: 5
-  LeftRightSpeed: 4
 --- !u!65 &1392804520
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42249,6 +42239,20 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1392804525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392804518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22db4f46677208b46bc4402252824cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 5
+  LeftRightSpeed: 5
 --- !u!4 &1392830004 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1562215507186496961, guid: d844460639b0f0f44a26151eb0ce6f04, type: 3}
