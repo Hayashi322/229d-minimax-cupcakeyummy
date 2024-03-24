@@ -9,6 +9,8 @@ public class LevelBoundary : MonoBehaviour
     public float InternalLeft;
     public float InternalRight;
 
+
+    
     // Update is called once per frame
     void Update()
     {

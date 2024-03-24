@@ -17,4 +17,5 @@ public class CollectCupcake : MonoBehaviour
         }
         this.gameObject.SetActive(false);
     }
+
 }
